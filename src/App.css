@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+.profile-pic {
+  width: 40vh;
+  height: 40vh;
+  display: block;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrapp {
+  background-color: #1A1B21;
+  margin: 10px auto;
+  padding: 0px;
+  border-radius: 5px;
+  width: 40vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.About-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 10.24px;
+  padding: 30px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.About-section h3 {
+  font-size: 16px;
+  margin-bottom: -10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.first-section {
+  margin-bottom: -20px;
+}
+
+.Footer-div {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: black;
+  border-radius: 0 0 5px 5px;
+}
+
+.Social-icon {
+  margin: 5px;
+}
+
+.Social-icon:hover {
+  cursor: pointer;
+}
+
+.Info-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: small;
+  color: white;
+}
+
+.Info-div > * {
+  margin-bottom: 0px;
+  margin-top: 0;
+}
+
+.job {
+  color: #F3BF99;
+}
+.name {
+  margin-top: 20px;
+}
+
+.Buttons {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.Buttons > *{
+  margin: 23px 5px -15px;
+  padding: 3px 18px;
+}
+
+.email {
+  background-color: white;
+  border: none;
+  color: black;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.linkedin {
+  background-color: #5093E2;
+  border: none;
+  color: black;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+}
+
+.linkedin-icon {
+  margin-right: 5px;
 }
